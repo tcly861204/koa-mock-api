@@ -1,0 +1,23 @@
+{
+  "name": "koa-mock-api",
+  "version": "1.0.0",
+  "description": "前端mock数据",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "build": "apidoc -i router/ -o apidoc/",
+    "serve": "node server.js"
+  },
+  "author": "tcly861204 <tcly861204@hotmail.com>",
+  "devDependencies": {
+    "koa": "^2.13.0",
+    "koa-router": "^9.1.0",
+    "mockjs": "^1.1.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "apidoc": "^0.25.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-static": "^5.0.0"
+  }
+}
